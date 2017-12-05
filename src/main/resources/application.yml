@@ -1,0 +1,16 @@
+server:
+  port: 8088
+spring:
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: LEGACYHTML5
+    cache: false
+  datasource:
+    url: jdbc:mysql://112.74.184.103:3306/ynhuang
+    username: ynhuang
+    password: hjg1920
+    driver-class-name: com.mysql.jdbc.Driver
+  devtools:
+    restart:
+      enabled: true
